@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags: []
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: parede
+    uniqueID: 1216801497
+    locked: 0
+  - name: plataforma fundo
+    uniqueID: 1884221895
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: objetos
+    uniqueID: 1519152541
+    locked: 0
+  - name: plataforma frente
+    uniqueID: 4285833293
+    locked: 0

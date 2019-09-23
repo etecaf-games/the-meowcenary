@@ -47,6 +47,12 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: chao
+    uniqueID: 2948364567
+    locked: 0
+  - name: "tubula\xE7\xE3o"
+    uniqueID: 2328996939
+    locked: 0
   - name: objetos
     uniqueID: 1519152541
     locked: 0

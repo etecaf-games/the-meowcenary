@@ -1,0 +1,302 @@
+fileFormatVersion: 2
+guid: 8b4d6efe5ceae534bb6580148350851a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -618530085768535179
+    second: WalkSheet_0
+  - first:
+      213: -6068948402059919039
+    second: WalkSheet_1
+  - first:
+      213: 6893790339437697956
+    second: WalkSheet_2
+  - first:
+      213: 7427902898554762486
+    second: WalkSheet_3
+  - first:
+      213: -4785859640701845554
+    second: WalkSheet_4
+  - first:
+      213: 150319236153511002
+    second: WalkSheet_5
+  - first:
+      213: -8880248209846578219
+    second: WalkSheet_6
+  - first:
+      213: 7117727269307378310
+    second: WalkSheet_7
+  - first:
+      213: -8523038752498950334
+    second: WalkSheet_8
+  - first:
+      213: -7068044359026580275
+    second: WalkSheet_9
+  - first:
+      213: 3542484032804852221
+    second: WalkSheet_10
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: WalkSheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1148
+        width: 900
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 470c263c2558eed4f9c7c266736921dc
+      internalID: -618530085768535179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkSheet_1
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1148
+        width: 900
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0626aff6e864c348ab28dad72765586
+      internalID: -6068948402059919039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkSheet_2
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1148
+        width: 900
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2405d101b53e8f43bc6df8bc6d962b0
+      internalID: 6893790339437697956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkSheet_3
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 1148
+        width: 900
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64f0084746bdd9445a028db43dc60169
+      internalID: 7427902898554762486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkSheet_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 248
+        width: 900
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 007c8be924f0b164588222a2c92e9c8e
+      internalID: -4785859640701845554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkSheet_5
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 248
+        width: 900
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a6a23cb6528d0e40802733a13c98a05
+      internalID: 150319236153511002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkSheet_6
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 248
+        width: 900
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79aafe35476992045a56149cd22f7e29
+      internalID: -8880248209846578219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkSheet_7
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 248
+        width: 900
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1fa7718935ca4344b6743f352baf70f
+      internalID: 7117727269307378310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: a5f58fc52e32d254281482dd0ed6389b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

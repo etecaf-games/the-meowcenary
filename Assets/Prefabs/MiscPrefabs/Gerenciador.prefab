@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &154752122546392244
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 154752122546392242}
+  - component: {fileID: 154752122546392243}
+  m_Layer: 0
+  m_Name: Gerenciador
+  m_TagString: Gerenciador
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &154752122546392242
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 154752122546392244}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &154752122546392243
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 154752122546392244}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47658a79c35e1da4ca2936a6b0e6d2f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pegavel: 0
+  wasUnseen: 1
+  pontos: 0
+  timer: 0
+  enemyQuantity: []
+  coletavelQuantity: []
+  missionTargetPontos: 3000
+  missionTargetTimer: 180
+  txtHP: {fileID: 0}
+  txtAmmo: {fileID: 0}
+  txtPoints: {fileID: 0}
+  txtTimer: {fileID: 0}
+  scriptPlayerInteraction: {fileID: 0}
+  scriptPlayer: {fileID: 0}

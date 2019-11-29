@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7428101045282460987
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7428101045282460985}
+  - component: {fileID: 7428101045282460986}
+  - component: {fileID: 5605499897726798103}
+  m_Layer: 0
+  m_Name: GerenciadorGlobal
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7428101045282460985
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7428101045282460987}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 14.786752, y: -3.1272883, z: -409.5625}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7428101045282460986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7428101045282460987}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5bade1b3bfa56941972ad61fd32347d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scriptPontuacao: {fileID: 0}
+  scriptPlayer: {fileID: 0}
+  scriptAnimMenu: {fileID: 0}
+  HPHighScore: 0
+  pontosHighScore: 0
+  timerHighScore: 0
+  HPCurrentScore: 0
+  pontosCurrentScore: 0
+  timerCurrentScore: 0
+  pontosTargetScore: 0
+  timerTargetScore: 0
+  txtHPHighScore: {fileID: 0}
+  txtPontosHighScore: {fileID: 0}
+  txtTimerHighScore: {fileID: 0}
+  txtHPCurrentScore: {fileID: 0}
+  txtPontosCurrentScore: {fileID: 0}
+  txtTimerCurrentScore: {fileID: 0}
+  txtHPGrade: {fileID: 0}
+  txtPontosGrade: {fileID: 0}
+  txtTimerGrade: {fileID: 0}
+  currentWasUnseen: 0
+  alltimeWasUnseen: 0
+  instanceRef: {fileID: 0}
+--- !u!114 &5605499897726798103
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7428101045282460987}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 664499bc06e0ef3489365c0c6e9e7ca2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scriptPontuacao: {fileID: 0}
+  scriptPlayer: {fileID: 0}
+  scriptAnimMenu: {fileID: 0}
+  HPHighScore: 0
+  pontosHighScore: 0
+  timerHighScore: 0
+  HPCurrentScore: 0
+  pontosCurrentScore: 0
+  timerCurrentScore: 0
+  pontosTargetScore: 0
+  timerTargetScore: 0
+  txtHPHighScore: {fileID: 0}
+  txtPontosHighScore: {fileID: 0}
+  txtTimerHighScore: {fileID: 0}
+  txtHPCurrentScore: {fileID: 0}
+  txtPontosCurrentScore: {fileID: 0}
+  txtTimerCurrentScore: {fileID: 0}
+  txtHPGrade: {fileID: 0}
+  txtPontosGrade: {fileID: 0}
+  txtTimerGrade: {fileID: 0}
+  currentWasUnseen: 0
+  alltimeWasUnseen: 0
+  instanceRef: {fileID: 0}

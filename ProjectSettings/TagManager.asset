@@ -3,7 +3,23 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Solid
+  - EnemyDog
+  - EnemyDrone
+  - EnemyVision
+  - Bullet
+  - EnemyBullet
+  - Cover
+  - LimiterY
+  - pegaveis
+  - HealthUp
+  - AmmoUp
+  - Gerenciador
+  - EnemyBackside
+  - testDummy
+  - DroneVision
+  - EnemyHitbox
   layers:
   - Default
   - TransparentFX
@@ -13,14 +29,14 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - layerPlayer
+  - layerChao
+  - layerBullet
+  - layerEnemyVision
+  - layerEnemy
+  - layerHook
+  - layerChaoInimigos
+  - layerEnemyHurtbox
   - 
   - 
   - 
@@ -38,6 +54,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: preto
+    uniqueID: 2301081919
+    locked: 0
   - name: parede
     uniqueID: 1216801497
     locked: 0
@@ -50,11 +69,23 @@ TagManager:
   - name: "tubula\xE7\xE3o"
     uniqueID: 2328996939
     locked: 0
+  - name: grade
+    uniqueID: 3089759873
+    locked: 0
   - name: plataforma fundo
     uniqueID: 1884221895
     locked: 0
   - name: objetos
     uniqueID: 1519152541
+    locked: 0
+  - name: player
+    uniqueID: 443306959
+    locked: 0
+  - name: caixa
+    uniqueID: 846577075
+    locked: 0
+  - name: inimigos
+    uniqueID: 1354142839
     locked: 0
   - name: pegaveis
     uniqueID: 3310957815

@@ -1,0 +1,400 @@
+fileFormatVersion: 2
+guid: 1da9f6b2315a41b4c962bf63244b9916
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2618782013331147557
+    second: ForwardSheet_0
+  - first:
+      213: 8246411090505231329
+    second: ForwardSheet_1
+  - first:
+      213: 1008553521393968578
+    second: ForwardSheet_2
+  - first:
+      213: 7346849687546614661
+    second: ForwardSheet_3
+  - first:
+      213: -1847224180036856852
+    second: ForwardSheet_4
+  - first:
+      213: -2012338292431532800
+    second: ForwardSheet_5
+  - first:
+      213: 2052044379003967003
+    second: ForwardSheet_6
+  - first:
+      213: 7404628687047928588
+    second: ForwardSheet_7
+  - first:
+      213: 3034449542662716670
+    second: ForwardSheet_8
+  - first:
+      213: 3146539936584391280
+    second: ForwardSheet_9
+  - first:
+      213: -5257351005208800462
+    second: ForwardSheet_10
+  - first:
+      213: -5145577219628943106
+    second: ForwardSheet_11
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ForwardSheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1448
+        width: 770
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0415e6cb2da550409fd20d6b89b0d6a
+      internalID: 2618782013331147557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ForwardSheet_1
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 1448
+        width: 770
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5935aa1c1507d7e45bc5a036f26e5dfd
+      internalID: 8246411090505231329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ForwardSheet_2
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 1448
+        width: 770
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ee63a1a71e006c439473391992a29f6
+      internalID: 1008553521393968578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ForwardSheet_3
+      rect:
+        serializedVersion: 2
+        x: 2310
+        y: 1448
+        width: 770
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 055dbdc171e4d804b85f5a3021e70c12
+      internalID: 7346849687546614661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ForwardSheet_4
+      rect:
+        serializedVersion: 2
+        x: 3080
+        y: 1448
+        width: 770
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4581e89fbb11d534cb8727ad8abe96cb
+      internalID: -1847224180036856852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ForwardSheet_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 848
+        width: 770
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0789f21c4631c834a964781664668fe2
+      internalID: -2012338292431532800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ForwardSheet_6
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 848
+        width: 770
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96d97e47cde23604ab3489610b448053
+      internalID: 2052044379003967003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ForwardSheet_7
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 848
+        width: 770
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edc65d232073c324b8313746fe713d03
+      internalID: 7404628687047928588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ForwardSheet_8
+      rect:
+        serializedVersion: 2
+        x: 2310
+        y: 848
+        width: 770
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2082e79c9091c6c4a8dbd1167f379ab3
+      internalID: 3034449542662716670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ForwardSheet_9
+      rect:
+        serializedVersion: 2
+        x: 3080
+        y: 848
+        width: 770
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52a01389fe62d5f4baa229bef21e9e3b
+      internalID: 3146539936584391280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ForwardSheet_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 248
+        width: 770
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89b16b96bdd5af547a0491b8e01bc670
+      internalID: -5257351005208800462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ForwardSheet_11
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 248
+        width: 770
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18acc4c6a0f3fad47a00057b58806c2c
+      internalID: -5145577219628943106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 6701ee5ba03844840a2d6ae216a641cf
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

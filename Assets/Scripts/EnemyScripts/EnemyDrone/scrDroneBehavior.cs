@@ -66,7 +66,6 @@ public class scrDroneBehavior : MonoBehaviour
         {
             timerStarted = false;
             FlipPlayerBased();
-            transform.position = Vector2.MoveTowards(transform.position, playerTransform.position, droneSpeed * Time.deltaTime);
             enemyGroup = GameObject.FindGameObjectsWithTag("EnemyDog");
             enemyGroupLenght = enemyGroup.Length;
 

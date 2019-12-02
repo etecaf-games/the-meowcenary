@@ -40,6 +40,11 @@ public class Player : MonoBehaviour
 
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.Space) && isGrounded && !isShooting || Input.GetKeyDown(KeyCode.W) && isGrounded && !isShooting)
+        {
+            rb.velocity = new Vector2(rb.velocity.x, jump);
+        }
+
         playerVelXatual = rb.velocity.x;
         playerVelYatual = rb.velocity.y;
 
@@ -90,11 +95,6 @@ public class Player : MonoBehaviour
             animPlayer.SetInteger("animPlayer", 0);
         }
 
-        if(Input.GetButtonDown ("Jump") && isGrounded && !isShooting)
-        {
-            rb.velocity = new Vector2(rb.velocity.x,jump);
-        }
-
         if (direction < 0 && lookingRight)
         {
             Virar();
@@ -104,22 +104,6 @@ public class Player : MonoBehaviour
         {
             Virar();
         }
-    }
-
-    public void OnTriggerEnter2D(Collider2D quem)
-    {
-        if (quem.gameObject.tag == "vida")
-        {
-            Destroy(GameObject.FindWithTag("vida"));
-            playerHealth += 1;
-        }
-
-        if (quem.gameObject.tag == "municao")
-        {
-            Destroy(GameObject.FindWithTag("municao"));
-            playerbalas += 1;
-        }
-
     }
 
     public void Virar()

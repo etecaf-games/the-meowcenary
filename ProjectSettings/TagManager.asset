@@ -37,7 +37,7 @@ TagManager:
   - layerHook
   - layerChaoInimigos
   - layerEnemyHurtbox
-  - 
+  - layerLimiter
   - 
   - 
   - 
@@ -84,11 +84,11 @@ TagManager:
   - name: caixa
     uniqueID: 846577075
     locked: 0
-  - name: inimigos
-    uniqueID: 1354142839
-    locked: 0
   - name: pegaveis
     uniqueID: 3310957815
+    locked: 0
+  - name: inimigos
+    uniqueID: 1354142839
     locked: 0
   - name: plataforma frente
     uniqueID: 4285833293

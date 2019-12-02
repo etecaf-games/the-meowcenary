@@ -12,6 +12,7 @@ public class Hook : MonoBehaviour
     public scrPatrol dronePatrol;
     public Gun scriptGun;
     public float compensationDirection = 0.5f;
+    public float timer;
 
     void Awake()
     {
@@ -19,6 +20,7 @@ public class Hook : MonoBehaviour
         if (GameObject.Find("Hook(Clone)").activeInHierarchy == true && scriptGun.hasShotAHook)
         {
             Destroy(this.gameObject);
+            scriptGun.hasShotAHook = false;
         }
         
     }
@@ -27,6 +29,7 @@ public class Hook : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         player = GameObject.Find("Player");
+        timer = Time.time + 3f;
     }
 
     void Update()
@@ -60,6 +63,14 @@ public class Hook : MonoBehaviour
         if (hooked)
         {
             player.GetComponent<Rigidbody2D>().velocity = direction * player.GetComponent<Player>().speed;
+            if (Time.time > timer)
+            {
+                Destroy(this.gameObject);
+                scriptGun.hasShotAHook = false;
+                hooked = false;
+                player.GetComponent<Player>().isHooked = false;
+                player.GetComponent<Player>().isShooting = false;
+            }
             if (hookspotTransform == null) return;
             else
             {
@@ -87,8 +98,11 @@ public class Hook : MonoBehaviour
     {
         if (target.gameObject.tag == "MainCamera")
         {
-            Destroy(gameObject);
+            Destroy(this.gameObject);
             scriptGun.hasShotAHook = false;
+            hooked = false;
+            player.GetComponent<Player>().isHooked = false;
+            player.GetComponent<Player>().isShooting = false;
         }
     }
 }

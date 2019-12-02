@@ -163,12 +163,16 @@ MonoBehaviour:
   scriptEnemyBehavior: {fileID: 0}
   scriptDroneBehavior: {fileID: 0}
   scriptHighScore: {fileID: 0}
+  scriptHighScore2: {fileID: 0}
   scriptPontuacao: {fileID: 0}
   scriptPlayer: {fileID: 0}
   animPlayer: {fileID: 0}
   enemyParentReference: {fileID: 0}
   canBackstab: 0
   isHidden: 1
+  invincibilityTimer: 0
+  stealthIndicator: {fileID: 4973046234830826758, guid: 0581129d80654b342bafdd69f3b4656f,
+    type: 3}
 --- !u!114 &5315151462660451477
 MonoBehaviour:
   m_ObjectHideFlags: 0

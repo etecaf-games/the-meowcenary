@@ -35,6 +35,8 @@ public class scrHighScore : MonoBehaviour
     public Text txtPontosGrade;
     public Text txtTimerGrade;
 
+    public TimeSpan uh;
+
     public bool currentWasUnseen;
     public bool alltimeWasUnseen = false;
 
@@ -56,11 +58,13 @@ public class scrHighScore : MonoBehaviour
     void Start()
     {
         timerHighScore = 420;
-        pontosHighScore = -420;
+        pontosHighScore = 0;
         HPHighScore = 0;
         timerCurrentScore = 420;
-        pontosCurrentScore = -420;
+        pontosCurrentScore = 0;
         HPCurrentScore = 0;
+        pontosTargetScore = 420;
+        timerTargetScore = 0;
     }
 
     public void GetSceneReferences()
@@ -74,6 +78,9 @@ public class scrHighScore : MonoBehaviour
     public void GetMenuReferences()
     {
         scriptAnimMenu = GameObject.Find("MenuFundo").gameObject.GetComponent<scrAnimMenuControl>();
+        txtHPHighScore = GameObject.Find("HPHighScore").gameObject.GetComponent<Text>();
+        txtPontosHighScore = GameObject.Find("PointsHighScore").gameObject.GetComponent<Text>();
+        txtTimerHighScore = GameObject.Find("TimeHighScore").gameObject.GetComponent<Text>();
     }
 
     public void GatherResults()
@@ -132,7 +139,7 @@ public class scrHighScore : MonoBehaviour
         }
 
         //checking point values
-        if (currentWasUnseen == true)
+        /*if (currentWasUnseen == true)
         {
             //Debug.Log("Was Unseen");
         }
@@ -140,10 +147,11 @@ public class scrHighScore : MonoBehaviour
         {
             //Debug.Log("Was Seen");
             //pontosCurrentScore *= 0.8f;
-        }
+        }*/
         if (pontosCurrentScore >= pontosTargetScore)
         {
             scriptAnimMenu.pointsMedalAnimator.SetInteger("medalAnim", 2);
+            
             //Debug.Log("Score: Gold");
         }
         else if (pontosCurrentScore >= (pontosTargetScore * 0.66f))
@@ -183,5 +191,9 @@ public class scrHighScore : MonoBehaviour
             scriptAnimMenu.timerMedalAnimator.SetInteger("medalAnim", 0);
             //Debug.Log("Timer: Trash");
         }
+        txtHPHighScore.text = HPHighScore.ToString();
+        txtPontosHighScore.text = pontosHighScore.ToString();
+        uh = TimeSpan.FromSeconds(timerHighScore);
+        txtTimerHighScore.text = uh.ToString("mm':'ss':'ff");
     }
 }

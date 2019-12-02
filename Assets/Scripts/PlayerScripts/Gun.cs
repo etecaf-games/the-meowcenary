@@ -22,14 +22,14 @@ public class Gun : MonoBehaviour
     void Update()
     {
         direction = Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.position;
-        if (Input.GetButton("Fire1") && scriptPlayer.isGrounded)
+        if (Input.GetButton("Fire1") && scriptPlayer.isGrounded && Input.mousePosition.x > 100)
         {
             scriptPlayer.isShooting = true;
             scriptPlayer.animPlayer.SetBool("isShooting", true);
             scriptPlayer.animPlayer.SetTrigger("shootingTrigger");
             scriptPlayer.animPlayer.SetInteger("animPlayer", 2);
         }
-        if (Input.GetButton("Fire2") && scriptPlayer.isGrounded && !scriptPlayer.isHooked)
+        if (Input.GetButton("Fire2") && scriptPlayer.isGrounded && !scriptPlayer.isHooked && Input.mousePosition.x > 100)
         {
             scriptPlayer.isShooting = true;
             scriptPlayer.animPlayer.SetBool("isShooting", true);

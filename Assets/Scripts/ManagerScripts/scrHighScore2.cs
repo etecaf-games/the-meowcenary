@@ -35,6 +35,8 @@ public class scrHighScore2 : MonoBehaviour
     public Text txtPontosGrade;
     public Text txtTimerGrade;
 
+    public TimeSpan uh;
+
     public bool currentWasUnseen;
     public bool alltimeWasUnseen = false;
 
@@ -56,11 +58,13 @@ public class scrHighScore2 : MonoBehaviour
     void Start()
     {
         timerHighScore = 420;
-        pontosHighScore = -420;
+        pontosHighScore = 0;
         HPHighScore = 0;
         timerCurrentScore = 420;
-        pontosCurrentScore = -420;
+        pontosCurrentScore = 0;
         HPCurrentScore = 0;
+        pontosTargetScore = 420;
+        timerTargetScore = 0;
     }
 
     public void GetSceneReferences()
@@ -74,6 +78,9 @@ public class scrHighScore2 : MonoBehaviour
     public void GetMenuReferences()
     {
         scriptAnimMenu = GameObject.Find("MenuFundo").gameObject.GetComponent<scrAnimMenuControl>();
+        txtHPHighScore = GameObject.Find("HPHighScore2").gameObject.GetComponent<Text>();
+        txtPontosHighScore = GameObject.Find("PointsHighScore2").gameObject.GetComponent<Text>();
+        txtTimerHighScore = GameObject.Find("TimeHighScore2").gameObject.GetComponent<Text>();
     }
 
     public void GatherResults()
@@ -112,27 +119,27 @@ public class scrHighScore2 : MonoBehaviour
         //checking HP values
         if (HPCurrentScore >= 6)
         {
-            scriptAnimMenu.HPMedalAnimator.SetInteger("medalAnim", 2);
+            scriptAnimMenu.HPMedalAnimator2.SetInteger("medalAnim", 2);
             //Debug.Log("Hp: Gold");
         }
         else if (HPCurrentScore >= 4)
         {
-            scriptAnimMenu.HPMedalAnimator.SetInteger("medalAnim", 1);
+            scriptAnimMenu.HPMedalAnimator2.SetInteger("medalAnim", 1);
             //Debug.Log("Hp: Silver");
         }
         else if (HPCurrentScore >= 2)
         {
-            scriptAnimMenu.HPMedalAnimator.SetInteger("medalAnim", 0);
+            scriptAnimMenu.HPMedalAnimator2.SetInteger("medalAnim", 0);
             //Debug.Log("Hp: Bronze");
         }
         else
         {
-            scriptAnimMenu.HPMedalAnimator.SetInteger("medalAnim", 0);
+            scriptAnimMenu.HPMedalAnimator2.SetInteger("medalAnim", 0);
             //Debug.Log("Hp: Trash");
         }
 
         //checking point values
-        if (currentWasUnseen == true)
+        /*if (currentWasUnseen == true)
         {
             //Debug.Log("Was Unseen");
         }
@@ -140,48 +147,52 @@ public class scrHighScore2 : MonoBehaviour
         {
             //Debug.Log("Was Seen");
             //pontosCurrentScore *= 0.8f;
-        }
+        }*/
         if (pontosCurrentScore >= pontosTargetScore)
         {
-            scriptAnimMenu.pointsMedalAnimator.SetInteger("medalAnim", 2);
+            scriptAnimMenu.pointsMedalAnimator2.SetInteger("medalAnim", 2);
             //Debug.Log("Score: Gold");
         }
         else if (pontosCurrentScore >= (pontosTargetScore * 0.66f))
         {
-            scriptAnimMenu.pointsMedalAnimator.SetInteger("medalAnim", 1);
+            scriptAnimMenu.pointsMedalAnimator2.SetInteger("medalAnim", 1);
             //Debug.Log("Score: Silver");
         }
         else if (pontosCurrentScore >= (pontosTargetScore * 0.33f))
         {
-            scriptAnimMenu.pointsMedalAnimator.SetInteger("medalAnim", 0);
+            scriptAnimMenu.pointsMedalAnimator2.SetInteger("medalAnim", 0);
             //Debug.Log("Score: Bronze");
         }
         else
         {
-            scriptAnimMenu.pointsMedalAnimator.SetInteger("medalAnim", 0);
+            scriptAnimMenu.pointsMedalAnimator2.SetInteger("medalAnim", 0);
             //Debug.Log("Score: Trash");
         }
 
         //checking timer values
         if (timerCurrentScore <= timerTargetScore)
         {
-            scriptAnimMenu.timerMedalAnimator.SetInteger("medalAnim", 2);
+            scriptAnimMenu.timerMedalAnimator2.SetInteger("medalAnim", 2);
             //Debug.Log("Timer: Gold");
         }
         else if (timerCurrentScore <= (timerTargetScore + 30f))
         {
-            scriptAnimMenu.timerMedalAnimator.SetInteger("medalAnim", 1);
+            scriptAnimMenu.timerMedalAnimator2.SetInteger("medalAnim", 1);
             //Debug.Log("Timer: Silver");
         }
         else if (timerCurrentScore <= (timerTargetScore + 60f))
         {
-            scriptAnimMenu.timerMedalAnimator.SetInteger("medalAnim", 0);
+            scriptAnimMenu.timerMedalAnimator2.SetInteger("medalAnim", 0);
             //Debug.Log("Timer: Bronze");
         }
         else
         {
-            scriptAnimMenu.timerMedalAnimator.SetInteger("medalAnim", 0);
+            scriptAnimMenu.timerMedalAnimator2.SetInteger("medalAnim", 0);
             //Debug.Log("Timer: Trash");
         }
+        txtHPHighScore.text = HPHighScore.ToString();
+        txtPontosHighScore.text = pontosHighScore.ToString();
+        uh = TimeSpan.FromSeconds(timerHighScore);
+        txtTimerHighScore.text = uh.ToString("mm':'ss':'ff");
     }
 }

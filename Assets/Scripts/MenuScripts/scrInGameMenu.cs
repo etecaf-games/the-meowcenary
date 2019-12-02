@@ -8,13 +8,19 @@ public class scrInGameMenu : MonoBehaviour
 {
     public GameObject PauseButton;
     public GameObject PauseMenu;
+    public GameObject MenuTutorialPage;
+    public GameObject MenuTutorialPage2;
 
     void Start() 
     {
         Time.timeScale = 1f;
         PauseButton = GameObject.Find("1stMenu");
         PauseMenu = GameObject.Find("2ndMenu");
+        MenuTutorialPage = GameObject.Find("TutorialPage");
+        MenuTutorialPage2 = GameObject.Find("TutorialPage2");
         PauseMenu.SetActive(false);
+        MenuTutorialPage.SetActive(false);
+        MenuTutorialPage2.SetActive(false);
     }
 
     public void RestartGame()
@@ -41,29 +47,23 @@ public class scrInGameMenu : MonoBehaviour
         SceneManager.LoadScene("MainMenuScene");
     }
 
-    /*public void GameSettings()
-    {
-        MainMenu.SetActive(false);
-        SettingsMenu.SetActive(true);
-    }
-
-    public void ExitSettings()
-    {
-        SettingsMenu.SetActive(false);
-        MainMenu.SetActive(true);
-    }
-
     public void GameTutorial()
     {
-        MainMenu.SetActive(false);
-        SettingsMenu.SetActive(false);
+        MenuTutorialPage.SetActive(true);
+        MenuTutorialPage2.SetActive(false);
+    }
+
+    public void GameTutorial2()
+    {
+        MenuTutorialPage.SetActive(false);
+        MenuTutorialPage2.SetActive(true);
     }
 
     public void ExitTutorial()
     {
-        SettingsMenu.SetActive(false);
-        MainMenu.SetActive(true);
-    }*/
+        MenuTutorialPage.SetActive(false);
+        MenuTutorialPage2.SetActive(false);
+    }
 
     public void ExitGame()
     {

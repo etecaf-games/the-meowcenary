@@ -45,14 +45,11 @@ public class scrEnemyBehavior : MonoBehaviour
     public scrPlayerInteraction scriptPlayerInteraction;
     public Transform playerTransform;
     public scrpontuacao scriptPontuacao;
+    public scrGerenciadorSons scriptGerenciaSons;
 
     public GameObject bulletPrefab;
     public GameObject enemyDogDeathAnim;
 
-    void Awake()
-    {
-
-    }
     // Start is called before the first frame update
     void Start()
     {
@@ -76,6 +73,7 @@ public class scrEnemyBehavior : MonoBehaviour
         scriptPlayerInteraction = GameObject.FindWithTag("Player").gameObject.GetComponent<scrPlayerInteraction>();
         playerTransform = GameObject.FindWithTag("Player").gameObject.GetComponent<Transform>();
         scriptPontuacao = GameObject.FindWithTag("Gerenciador").gameObject.GetComponent<scrpontuacao>();
+        scriptGerenciaSons = GameObject.Find("GerenciadorGlobal(Clone)").gameObject.GetComponent<scrGerenciadorSons>();
     }
 
     // Update is called once per frame
@@ -196,6 +194,7 @@ public class scrEnemyBehavior : MonoBehaviour
             scriptPontuacao.pontos += 100;
             Debug.Log("Pontos: " + scriptPontuacao.pontos);
             this.gameObject.SetActive(false);
+            scriptGerenciaSons.bgmSoundEffects[3].Stop();
         }
     }
 
